@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitarra clasica</title>
+    <style>
+         body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background-color: aquamarine;
+         }   
+
+         header{
+            background-color:rgb(0, 64,64);
+            color: white;
+            padding: 20px;
+            text-align: center;
+         }
+
+         nav {
+                margin-top: 20px;
+         }
+
+
+         
+         nav a {
+                color: White;
+                text-decoration: none;
+                margin: 0 15px;
+                font-weight: bold;
+
+         }
+
+         nav a:hover{
+            text-decoration: underline;
+         }
+         footer{
+                background-color: rgb(0, 64,64) ;
+                color: white;
+                text-align: center;
+                padding: 15px;
+
+         }
+
+         main{
+                display: flex;
+                justify-content: space-around;
+                padding: 20px;   
+             }
+             .contenedor {
+                display: flex;
+                gap: 20px;
+             }
+             article {
+                    background-color: rgb(146, 125, 55);
+                    padding:20px;
+                    border-radius:8px;
+                    box-shadow:0 0 10px rgb(0,0,0,0.1);
+                    flex: 1;
+                    }
+            section h2 {
+                color: #2a5d84;
+            }
+
+            /*Diseño responsivo*/
+            @media(max-width: 600px) {
+                .contenedor{
+                    flex-direction: column;
+                }
+                main {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                nav a{
+                    display: block;
+                    margin: 10px 0;
+                }
+
+
+
+
+            }
+            body {
+      margin: 0;
+      padding: 0;
+      background-image: url("https://p4.wallpaperbetter.com/wallpaper/1009/873/136/guitar-bad-one-wallpaper-preview.jpg"); /* Ruta de tu imagen */
+      background-size: cover;             /* Escala para cubrir toda la pantalla */
+      background-position: center;        /* Centra la imagen */
+      background-repeat: no-repeat;       /* No repite la imagen */
+      height: 220vh;                      /* Altura completa de la ventana */
+    }
+     /* Estilo del botón flotante */
+        .btn-flotante {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s;
+        }
+
+        .btn-flotante:hover {
+            background-color: #0056b3;
+        }
+
+        /* Contenido de ejemplo para que la página tenga scroll */
+        .contenido {
+            height: 10px;
+            padding: 10px;
+        }
+    
+    </style>
+    
+</head>
+<body>
+        <!-- Botón flotante -->
+    <button class="btn-flotante" onclick="scrollToTop()">↑</button>
+
+    <script>
+        // Función para desplazarse al inicio
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Desplazamiento suave
+            });
+        }
+    </script>
+
+
+
+
+    <header>
+
+
+            <h1>Maximos exponentes de la guitarra clasica</h1>
+            <p> La guitarra clásica es mucho más que un instrumento: es una expresión artística que ha acompañado a la humanidad durante siglos. Con su sonido cálido y envolvente, ha dado vida a obras maestras de grandes compositores y continúa inspirando a músicos de todas las edades. En esta página, te invitamos a descubrir el fascinante mundo de la guitarra clásica, desde su historia y evolución hasta las técnicas, repertorios y artistas que han marcado su legado.</p>
+            <nav>
+                    <a target="_blank" rel="noopener noreferrer" href=" https://www.youtube.com/watch?v=UqHE0ntB5Lw "> Hisoria de la Guitarra clasica. 
+                        </a>
+                    
+                    <a target="_blank" rel="noopener noreferrer" href=" https://www.youtube.com/watch?v=369ef6C1a4w"> Francisco tarrega</a>
+
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=yUkPvPCRCeg"> Agustin Barrios Mangoré
+
+                    </a>
+            </nav>
+    </header>
+
+    <main>
+            <section  class="contenedor">
+            <article>
+                    <h2> Artistas contemporaneos </h2>
+                    <h3>Andrés Segovia</h3>
+                    <img width="400" height="320"src=" https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQI0FP774oUM7sceYRRH1xUXZJts0FI1mk1lffAQRfG_hmTb98CUFbzEbGMwcmdrWv4Wpd7Uv4c18Oo3yM">
+                    
+                    <p>Andrés Segovia (1893_1987) fue un virtuoso guitarrista español considerado el principal responsable de elevar la guitarra clásica al nivel de los grandes instrumentos de concierto. Nacido en Linares, Jaén, su infancia transcurrió en diversas localidades jiennenses hasta que en 1903 su familia se trasladó a Granada, donde recibió clases de guitarra y cursó estudios en la Escuela Normal de Magisterio entre 1906 y 1908   </p>
+                    <h2> Formación y carrera temprana </h2>
+                    
+                    <p> Segovia comenzó a tocar la guitarra desde niño, probablemente influenciado por el flamenco. Sin embargo, desde su adolescencia se orientó hacia la guitarra clásica, formándose de manera autodidacta. Debutó públicamente en Granada a los 14 años y, a los 16, ofreció su primer concierto en Madrid, interpretando obras de Francisco Tárrega .</p>
+                    
+                    <h1> Heitor Villalobos</h1>
+                    <img width="320" height="350" src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Heitor_Vila-Lobos_%28c._1922%29part.jpg">
+                    <p> Heitor Villa-Lobos (1887_1959) fue uno de los compositores más influyentes de América Latina y una figura clave en la música clásica del siglo XX. Su obra fusionó la tradición clásica europea con las raíces musicales de Brasil, creando un lenguaje musical único que celebraba la diversidad cultural de su país.</p>
+                    
+                    <h3> Primeros años y formación autodidacta </h3>
+                    
+                    <p> Nació el 5 de marzo de 1887 en Río de Janeiro. Su padre, Raul Villa-Lobos, fue músico aficionado y bibliotecario, quien le enseñó a tocar el violonchelo y el clarinete desde temprana edad. A los 11 años, tras la muerte de su padre, Villa-Lobos comenzó a tocar en orquestas de cine y teatro para ganarse la vida. A los 18 años, dejó su hogar y emprendió un viaje por el interior de Brasil, explorando la Amazonía y empapándose de la música folclórica indígena y afrobrasileña </p>
+
+                    <h2>Obra y estilo musical </h2>
+                    <p> Villa-Lobos compuso más de 2.000 obras en diversos géneros, incluyendo sinfonías, conciertos, música de cámara y obras corales. Su serie más emblemática es Bachianas Brasileiras, una colección de nueve piezas que fusionan el contrapunto barroco de Johann Sebastian Bach con melodías y ritmos brasileños. La Bachianas Brasileiras No. 5, escrita para soprano y ocho violonchelos, es especialmente célebre por su belleza y originalidad .</p>
+
+                   
+            </article>  
+            
+            <article>
+                        <h2> Artistas del periodo Barroco </h2>
+                        <h3>Sebastian Bach </h3>
+                        <img width="300" height="350" src="https://deutsche-akademie-online.com/wp-content/uploads/2022/03/431px-BACH_Portrait.jpg">
+                        <p> Johann Sebastian Bach (1685–1750) fue un compositor, organista, violinista y clavecinista alemán, considerado uno de los más grandes genios musicales de todos los tiempos. Su obra es fundamental en la historia de la música clásica occidental. </p>
+                        <h2> Primeros años y formación</h2>
+                        <p> 
+                            <ul> 
+                                <li>Nacimiento: 31 de marzo de 1685 en Eisenach, Alemania.</li>
+
+                                <li>Pertenecía a una familia de músicos que abarcó varias generaciones. </li>
+
+                                <li>Quedó huérfano a los 10 años y fue criado por su hermano mayor, Johann Christoph Bach, quien también era músico y lo introdujo en el arte del órgano y la composición.</li>
+
+                                <li>Estudió en la escuela de St. Michael en Lüneburg, donde se familiarizó con el repertorio coral y la música del norte de Alemania.</li>
+                            
+                            </ul>
+                        </p>
+                        <h2>Estilo y legado </h2>
+                        <p> El estilo musical de Johann Sebastian Bach, conocido por su dominio del contrapunto, fuga e invención, se caracteriza por su profunda emotividad y exploración de la forma, trascendiendo géneros y adaptándose a una amplia variedad de obras. Su legado perdura en la historia de la música, influyendo a generaciones de compositores y músicos. </p>
+                        <h2>Nicolo Paganini</h2>
+                            <img width="300" height="350" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/NiccoloPaganini.jpeg/800px-NiccoloPaganini.jpeg">
+                        <p> Niccolò Paganini (1782_1840) fue un virtuoso violinista y compositor italiano, conocido por su asombrosa técnica y su estilo expresivo. Aunque no compuso directamente para la guitarra clásica en el mismo nivel que lo hizo para el violín, tuvo una relación importante con el instrumento.</p>
+                        <h2> Dominio del instrumento</h2>
+                        <p>  Paganini también fue un guitarrista talentoso. Tocaba la guitarra desde joven y la utilizaba para componer y acompañarse en privado. De hecho, escribió una gran cantidad de música de cámara donde la guitarra tiene un papel destacado.</p>
+
+            </article>
+
+
+            </section>
+
+    </main>
+
+    <footer>
+        <p>&copy;2025. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
